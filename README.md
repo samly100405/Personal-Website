@@ -1,0 +1,2 @@
+# samly.me
+Personal website
