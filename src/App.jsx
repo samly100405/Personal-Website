@@ -1,6 +1,10 @@
+import Header from "./Header";
+import "./App.css"
+
 function App() {
   return (
     <div className="app">
+      <Header />
       <h1>Hi there! This site is currently a work in progress. I am migrating from static HTML to ReactJS!</h1>
       <ul>
         <li>
