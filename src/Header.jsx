@@ -9,14 +9,7 @@ function Header() {
             </div>
 
             <div className="header-right">
-                <ul>
-                    <li>Education</li>
-                    <li>Involvment</li>
-                    <li>Projects</li>
-                    <li>Interest</li>
-                </ul>
-
-
+                <HeaderSectionLinks />
             </div>
         </header>
     )
@@ -25,7 +18,10 @@ function Header() {
 function HeaderSectionLinks() {
     return (
         <ul>
-            
+            <li>Education</li>
+            <li>Involvment</li>
+            <li>Projects</li>
+            <li>Interest</li>
         </ul>
     )
 }
