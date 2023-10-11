@@ -1,29 +1,32 @@
-import icon from "./resources/Icon.png"
 import "./Header.css"
+import VisitBlogButton from "./components/VisitBlogButton"
 
 function Header() {
     return (
-        <header className="header">
+        <div className="header">
             <div className="header-left">
-                <img src={icon} alt="icon" height="50px"/>
+                Sam Ly
             </div>
 
             <div className="header-right">
                 <HeaderSectionLinks />
+                <VisitBlogButton />
             </div>
-        </header>
+        </div>
     )
 }
 
 function HeaderSectionLinks() {
     return (
         <ul>
-            <li>Education</li>
-            <li>Involvment</li>
-            <li>Projects</li>
-            <li>Interest</li>
+            <li><a href="">Education</a></li>
+            <li><a href="">Involvment</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Interest</a></li>
         </ul>
     )
 }
+
+
 
 export default Header;
