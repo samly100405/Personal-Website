@@ -1,4 +1,4 @@
-import VisitBlogButton from "./buttons/VisitBlogButton";
+// import VisitBlogButton from "./buttons/VisitBlogButton";
 import GithubIconButton from "./buttons/GithubIconButton";
 import LinkedinIconButton from "./buttons/LinkedInIconButton";
 import "./HeroSection.css";
@@ -21,7 +21,7 @@ function SocialsButtons() {
     <div className="socials-buttons">
       <GithubIconButton />
       <LinkedinIconButton />
-      <VisitBlogButton />
+      {/* <VisitBlogButton /> */}
     </div>
   );
 }
