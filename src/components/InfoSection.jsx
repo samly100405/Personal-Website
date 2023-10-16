@@ -13,10 +13,10 @@ import GithubLogo from "../resources/pictures/github-logo.png"
 function InfoSection() {
   return (
     <div className="info-section">
-      <div className="info-title">
+      <div className="info-title" id="education-section">
         <h1>Education</h1>
       </div>
-      <div className="info-item-container">
+      <div className="info-item-container" >
         <InfoItem
           title="Cal Poly Pomona - B.S. Computer Science 2026"
           url="https://www.cpp.edu/index.shtml"
@@ -38,7 +38,7 @@ function InfoSection() {
           image={OdinProjectLogo}
         />
       </div>
-      <div className="info-title">
+      <div className="info-title" id="clubs-section">
         <h1>Clubs and Activities</h1>
       </div>
       <div className="info-item-container">
@@ -58,7 +58,7 @@ function InfoSection() {
           image={VSALogo}
         /> 
       </div>
-      <div className="info-title">
+      <div className="info-title" id="projects-section">
         <h1>Projects</h1>
       </div>
       <div className="info-item-container">

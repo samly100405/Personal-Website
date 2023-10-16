@@ -19,14 +19,12 @@ function Header() {
 function HeaderSectionLinks() {
     return (
         <ul>
-            <li><a href="">Education</a></li>
-            <li><a href="">Involvment</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Interest</a></li>
+            <li><a href="#education-section">Education</a></li>
+            <li><a href="#clubs-section">Involvment</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
     )
 }
-
-
 
 export default Header;
