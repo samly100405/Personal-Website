@@ -8,7 +8,7 @@ function HeroSection() {
     <div className="hero">
       <div className="hero-left">
         <h1>Welcome to my website!</h1>
-        <p>Currently studying computer science at Cal Poly Pomona.</p>
+        <p>I am currently studying computer science at Cal Poly Pomona. While you are here, make sure to check out my blog!</p>
         <SocialsButtons />
       </div>
       <div className="hero-right">

@@ -3,7 +3,7 @@ import './MediumButtons.css'
 
 function VisitBlogButton() {
     return (
-        <a href={"/blog"} >
+        <a href="/blog" target="_blank" >
             <button className='medium-button visit-blog' >
                 Vist Blog
             </button>
