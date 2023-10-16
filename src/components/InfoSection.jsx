@@ -7,6 +7,8 @@ import OdinProjectLogo from "../resources/pictures/odin-project-logo.png";
 import GDSCLogo from "../resources/pictures/gdsc-logo.png"
 import SEALogo from "../resources/pictures/sea-logo.png"
 import VSALogo from "../resources/pictures/vsa-logo.webp"
+import IcebreakLogo from "../resources/pictures/icebreak-logo.png"
+import GithubLogo from "../resources/pictures/github-logo.png"
 
 function InfoSection() {
   return (
@@ -56,6 +58,29 @@ function InfoSection() {
           image={VSALogo}
         /> 
       </div>
+      <div className="info-title">
+        <h1>Projects</h1>
+      </div>
+      <div className="info-item-container">
+        <InfoItem
+          title="SEA Icebreak (Group, Ongoing)"
+          desc="Student organization management app"
+          url="https://github.com/cppsea/icebreak"
+          image={IcebreakLogo}
+        />  
+        <InfoItem
+          title="GDSC AI Calc Tutor (Group, Ongoing)"
+          desc="Calculus Tutoring solution"
+          url="https://github.com/GdscCpp/AI-Calc-Tutor"
+          image={GDSCLogo}
+        /> 
+        <InfoItem
+          title="This Website"
+          url="https://github.com/samly100405/samly.me"
+          desc="Github repo for this website."
+          image={GithubLogo}
+        /> 
+      </div>  
     </div>
   );
 }
