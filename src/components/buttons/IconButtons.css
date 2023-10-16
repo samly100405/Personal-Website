@@ -1,0 +1,13 @@
+.icon-button {
+    padding: 0;
+    background-color: #1f2937;
+    border: 0;
+    flex: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.icon-button > img {
+    width: 32px;
+    height: 32px;
+}

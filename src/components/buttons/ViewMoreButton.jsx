@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
-import './Buttons.css'
+import './MediumButtons.css'
 
 function ViewMoreButton({ url }) {
     return (
         <a href={url}>
-            <button className='important-button view-more'>
+            <button className='medium-button view-more'>
                 Learn More
             </button>
         </a>)

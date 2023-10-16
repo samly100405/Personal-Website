@@ -1,54 +1,12 @@
 import "./MainContent.css";
 import ViewMoreButton from "./buttons/ViewMoreButton";
-import VisitBlogButton from "./buttons/VisitBlogButton";
-import githubIcon from "../resources/icons/github-icon.svg";
-import linkedinIcon from "../resources/icons/linkedin-icon.svg";
+import HeroSection from "./HeroSection";
 
 function MainContent() {
   return (
     <div className="main-content">
-      <Hero />
+      <HeroSection />
       <EducationSection />
-    </div>
-  );
-}
-
-function Hero() {
-  return (
-    <div className="hero">
-      <div className="hero-left">
-        <h1>Welcome to my website!</h1>
-        <p>Currently studying computer science at Cal Poly Pomona.</p>
-        <SocialsButtons />
-      </div>
-      <div className="hero-right">
-        <div className="image-slide"></div>
-      </div>
-    </div>
-  );
-}
-
-function SocialsButtons() {
-  return (
-    <div className="socials-buttons">
-      <a
-        className="socials-button"
-        href="google.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={githubIcon} alt="gh" />
-      </a>
-      <a
-        className="socials-button"
-        href="google.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src={linkedinIcon} alt="gh" />
-      </a>
-
-      <VisitBlogButton />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
-import './Buttons.css'
+import './MediumButtons.css'
 
 function VisitBlogButton() {
     return (
         <a href={"/blog"} >
-            <button className='important-button visit-blog' >
+            <button className='medium-button visit-blog' >
                 Vist Blog
             </button>
         </a>
