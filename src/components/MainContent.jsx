@@ -1,8 +1,8 @@
 import "./MainContent.css";
-import ViewMoreButton from "./components/ViewMoreButton";
-import VisitBlogButton from "./components/VisitBlogButton";
-import githubIcon from "./resources/icons/github-icon.svg";
-import linkedinIcon from "./resources/icons/linkedin-icon.svg";
+import ViewMoreButton from "./buttons/ViewMoreButton";
+import VisitBlogButton from "./buttons/VisitBlogButton";
+import githubIcon from "../resources/icons/github-icon.svg";
+import linkedinIcon from "../resources/icons/linkedin-icon.svg";
 
 function MainContent() {
   return (

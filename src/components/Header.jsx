@@ -1,5 +1,5 @@
 import "./Header.css"
-import VisitBlogButton from "./components/VisitBlogButton"
+import VisitBlogButton from "./buttons/VisitBlogButton"
 
 function Header() {
     return (
