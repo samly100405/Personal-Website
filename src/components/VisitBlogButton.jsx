@@ -1,8 +1,8 @@
-import './VisitBlogButton.css'
+import './Buttons.css'
 
 function VisitBlogButton() {
     return (
-        <button className='visit-blog-button'>
+        <button className='important-button visit-blog'>
             Vist Blog
         </button>
     )

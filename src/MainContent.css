@@ -71,12 +71,13 @@
 
 .education-title {
     border-bottom: solid #1f2937 4px;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 .education-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .education-item-right {
