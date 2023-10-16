@@ -22,7 +22,7 @@ function HeaderSectionLinks() {
             <li><a href="#education-section">Education</a></li>
             <li><a href="#clubs-section">Involvment</a></li>
             <li><a href="#projects-section">Projects</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#footer">Contact</a></li>
         </ul>
     )
 }

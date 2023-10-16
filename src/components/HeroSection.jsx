@@ -12,7 +12,6 @@ function HeroSection() {
         <SocialsButtons />
       </div>
       <div className="hero-right">
-        <div className="image-slide"></div>
       </div>
     </div>
   );

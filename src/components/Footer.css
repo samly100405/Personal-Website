@@ -1,0 +1,23 @@
+.footer {
+  padding: 50px 15%;
+  background-color: #1f2937;
+  color: #f9faf8;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer p {
+  color: #e5e7eb;
+  font-weight: 100;
+  font-size: 18px;
+  margin: 0;
+}
+
+.footer h1 {
+  color: #e5e7eb;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0;
+}
