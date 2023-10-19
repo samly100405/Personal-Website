@@ -75,9 +75,9 @@ function InfoSection() {
           image={GDSCLogo}
         /> 
         <InfoItem
-          title="This Website"
-          url="https://github.com/samly100405/samly.me"
-          desc="Github repo for this website."
+          title="Computer Science Blog"
+          url="https://blog.samly.me/"
+          desc="Blog where I discuss computer science topics that interest me."
           image={GithubLogo}
         /> 
       </div>  

@@ -1,5 +1,5 @@
 import "./Header.css"
-// import VisitBlogButton from "./buttons/VisitBlogButton"
+import VisitBlogButton from "./buttons/VisitBlogButton"
 
 function Header() {
     return (
@@ -10,7 +10,7 @@ function Header() {
 
             <div className="header-right">
                 <HeaderSectionLinks />
-                {/* <VisitBlogButton /> */}
+                <VisitBlogButton />
             </div>
         </div>
     )
